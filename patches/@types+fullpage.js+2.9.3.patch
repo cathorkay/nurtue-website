@@ -1,0 +1,10 @@
+diff --git a/node_modules/@types/fullpage.js/index.d.ts b/node_modules/@types/fullpage.js/index.d.ts
+index 298b2a2..dae0403 100755
+--- a/node_modules/@types/fullpage.js/index.d.ts
++++ b/node_modules/@types/fullpage.js/index.d.ts
+@@ -535,3 +535,5 @@ interface JQueryStatic {
+ interface JQuery {
+     fullpage: FullPageJs;
+ }
++
++export = FullPageJs;

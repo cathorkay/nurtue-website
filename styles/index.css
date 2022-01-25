@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  transform: translate3d(0, 0, 0);
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  transition: text-decoration 300ms;
+  @apply decoration-transparent;
+}
+
+#nav a {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  transition: text-decoration 500ms;
+  @apply decoration-transparent;
+}
+
+a:hover,
+#nav a.active {
+  @apply decoration-white !important;
+}
