@@ -1,7 +1,16 @@
 diff --git a/node_modules/@types/fullpage.js/index.d.ts b/node_modules/@types/fullpage.js/index.d.ts
-index 298b2a2..dae0403 100755
+index 298b2a2..168c5be 100755
 --- a/node_modules/@types/fullpage.js/index.d.ts
 +++ b/node_modules/@types/fullpage.js/index.d.ts
+@@ -8,7 +8,7 @@
+ 
+ import htmlString = JQuery.htmlString;
+ 
+-interface FullPageJsOptions {
++export interface FullPageJsOptions {
+     /**
+      * (default false) A selector can be used to specify the menu to link with the sections. This way the scrolling of the sections will activate the corresponding element in the menu using the class active. This won't generate a menu but will just add the active class to the element in the given menu with the corresponding anchor links. In order to link the elements of the menu with the sections, an HTML 5 data-tag (data-menuanchor) will be needed to use with the same anchor links as used within the sections.
+      */
 @@ -535,3 +535,5 @@ interface JQueryStatic {
  interface JQuery {
      fullpage: FullPageJs;

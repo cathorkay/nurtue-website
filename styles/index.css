@@ -24,3 +24,21 @@ a:hover,
 #nav a.active {
   @apply decoration-white !important;
 }
+
+.feature-screenshot-enter {
+  opacity: 0;
+}
+
+.feature-screenshot-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.feature-screenshot-exit {
+  opacity: 1;
+}
+
+.feature-screenshot-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
