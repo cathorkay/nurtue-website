@@ -20,7 +20,7 @@ const Concept: React.FC = () => {
         </div>
         <div className="w-full h-2/5 sm:w-2/3 ml-auto sm:ml-16 aspect-w-16 aspect-h-6">
           <iframe
-            src="https://www.youtube.com/embed/J9By00Fb8ng"
+            src="https://www.youtube.com/embed/MqfKg7qTKB8"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
