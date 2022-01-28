@@ -46,7 +46,7 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Nurtue - Be a better parent than you were yesterday</title>
+        <title>Nurtue - Be a better parent</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />

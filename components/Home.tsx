@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         >
           <h1 className="font-bold text-5xl sm:text-7xl">Nurtue</h1>
           <div className="text-2xl sm:text-3xl mt-2 sm:mt-2">
-            Be a better parent than you were yesterday
+            Be a better parent
           </div>
           <div className="text-base sm:text-xl mt-6 sm:mt-8">
             [Project Description] The quick brown fox jumps over the lazy dog.

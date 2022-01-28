@@ -4,22 +4,22 @@ const teamMembers = [
   {
     name: "Meng G",
     photo: "meng.jpg",
-    role: "Role",
+    role: "UX Researcher",
   },
   {
     name: "Catherine H",
     photo: "cat.jpg",
-    role: "Role",
+    role: "Product Manager",
   },
   {
     name: "Dyllen N",
     photo: "dyllen.jpg",
-    role: "Role",
+    role: "Product Designer",
   },
   {
     name: "Rui Y",
     photo: "rui.jpg",
-    role: "Developer",
+    role: "Software Engineer",
   },
 ];
 

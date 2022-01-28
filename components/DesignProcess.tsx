@@ -78,10 +78,6 @@ const listItems = [
       name: "MP4",
       link: "",
     },
-    download3: {
-      name: "Instructions",
-      link: "",
-    },
   },
   {
     name: "Pitch Slides",
@@ -150,7 +146,7 @@ const DesignProcess: React.FC = () => {
                     {item.download2.name}
                   </a>
                 </td>
-                <td className="p-2">
+                {/* <td className="p-2">
                   {item.download3 ? (
                     <a
                       target="_blank"
@@ -160,7 +156,7 @@ const DesignProcess: React.FC = () => {
                       {item.download3.name}
                     </a>
                   ) : null}
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>
