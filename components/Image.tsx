@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-const PUBLIC_IMAGE_URL = "/images";
+const PUBLIC_IMAGE_URL = "./images";
 
 const MyImage: React.FC<
   React.DetailedHTMLProps<
