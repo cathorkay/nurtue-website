@@ -19,6 +19,7 @@ const Index: NextPage = () => {
     (async () => {
       const fullpage = await import("fullpage.js");
       const options: FullPageJsOptions = {
+        scrollBar: true,
         anchors: [
           "home",
           "concept",

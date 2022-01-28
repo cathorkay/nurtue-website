@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
-import screenshotImage from "public/images/iphone-frame.png";
-import featureImage1 from "public/images/feature-1.png";
-import featureImage2 from "public/images/feature-2.png";
-import featureImage3 from "public/images/feature-3.png";
+import Image from "components/Image";
 
 const features = [
   {
@@ -14,21 +10,21 @@ const features = [
     description:
       "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
     icon: <AutoAwesomeIcon />,
-    image: featureImage1,
+    image: "feature-1.png",
   },
   {
     name: "Fox Jump 2",
     description:
       "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
     icon: <AutoAwesomeIcon />,
-    image: featureImage2,
+    image: "feature-2.png",
   },
   {
     name: "Fox Jump 3",
     description:
       "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
     icon: <AutoAwesomeIcon />,
-    image: featureImage3,
+    image: "feature-3.png",
   },
 ];
 
@@ -36,17 +32,12 @@ const FeatureImage: React.FC<{ feature: typeof features[0] }> = ({
   feature,
 }) => {
   return (
-    <div
-      className="w-full absolute inset-y-0 my-auto"
-      style={{ height: "93.9%" }}
-    >
-      <Image
-        src={feature.image}
-        alt={`feature screenshot of ${feature.name}`}
-        layout="fill"
-        objectFit="contain"
-      />
-    </div>
+    <Image
+      className="w-full absolute inset-y-0 my-auto object-contain"
+      style={{ height: "96.8%" }}
+      src={feature.image}
+      alt={`feature screenshot of ${feature.name}`}
+    />
   );
 };
 
@@ -79,8 +70,8 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
   }, [sm, featureCarouselOn]);
 
   return (
-    <section className="section">
-      <div className="h-screen container mx-auto flex flex-row items-center justify-center px-6 lg:px-28 space-x-0 sm:space-x-16 pt-14 sm:pt-16">
+    <section className="h-screen section">
+      <div className="h-full container mx-auto flex flex-row items-center justify-center px-6 lg:px-28 space-x-0 sm:space-x-16 pt-14 sm:pt-16">
         <div className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-green-700">
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">Features</h2>
           {features.map((f, index) => (
@@ -115,14 +106,11 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
                 <FeatureImage feature={features[selectedFeature]} />
               </CSSTransition>
             </TransitionGroup>
-            <div className="w-full h-full relative">
-              <Image
-                src={screenshotImage}
-                alt="iphone frame"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
+            <Image
+              className="w-full h-full object-contain relative"
+              src="iphone-frame.png"
+              alt="iphone frame"
+            />
           </div>
         )}
       </div>

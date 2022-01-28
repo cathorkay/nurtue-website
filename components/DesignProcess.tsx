@@ -36,7 +36,7 @@ const listItems = [
     },
   },
   {
-    name: "Low-Fidelity Prototype",
+    name: "Low-fi Prototype",
     download1: {
       name: "Link",
       link: "",
@@ -47,7 +47,7 @@ const listItems = [
     },
   },
   {
-    name: "Medium-Fidelity Prototype",
+    name: "Medium-Fi Prototype",
     download1: {
       name: "Link",
       link: "",
@@ -69,7 +69,7 @@ const listItems = [
     },
   },
   {
-    name: "High-Fidelity Prototype",
+    name: "High-fi Prototype",
     download1: {
       name: "YouTube",
       link: "",
@@ -109,8 +109,8 @@ const listItems = [
 
 const DesignProcess: React.FC = () => {
   return (
-    <section className="section">
-      <div className="h-screen container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
+    <section className="h-screen section">
+      <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
         <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-green-700">
           Design Process
         </h2>

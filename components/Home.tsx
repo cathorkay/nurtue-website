@@ -1,19 +1,14 @@
-import Image from "next/image";
-import familyImage from "public/images/family.svg";
+import Image from "components/Image";
 
 const Home: React.FC = () => {
   return (
-    <section className="section">
-      <div className="h-screen container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-12 sm:space-x-16 pt-14 sm:pt-16">
-        <div className="w-full h-2/5 sm:w-3/5 sm:h-3/5 relative">
-          <Image
-            src={familyImage}
-            alt="a sweet family"
-            layout="fill"
-            objectFit="contain"
-            priority
-          />
-        </div>
+    <section className="h-screen section">
+      <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-12 sm:space-x-16 pt-14 sm:pt-16">
+        <Image
+          className="w-full h-2/5 sm:w-3/5 sm:h-auto"
+          src="family.svg"
+          alt="a sweet family"
+        />
         <div className="h-2/5 sm:w-2/5 sm:h-auto text-green-700 text-center sm:text-left mt-8 sm:mt-0">
           <h1 className="font-bold text-5xl sm:text-7xl">Nurtue</h1>
           <div className="text-2xl sm:text-3xl mt-2 sm:mt-2">

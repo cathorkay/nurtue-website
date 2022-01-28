@@ -41,7 +41,13 @@ const Header: React.FC = () => {
     <header className="z-50 fixed top-0 inset-x-0 w-full h-14 sm:h-16 bg-green-700 text-white">
       <div className="flex flex-row items-center container h-full mx-auto px-2 sm:px-8">
         <IconButton
-          className="text-white sm:invisible"
+          sx={{
+            color: "white",
+            display: {
+              xs: "flex",
+              sm: "none",
+            },
+          }}
           onClick={handleMenuClick}
         >
           <MenuIcon />
