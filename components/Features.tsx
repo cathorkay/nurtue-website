@@ -70,13 +70,23 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
   }, [sm, featureCarouselOn]);
 
   return (
-    <section className="h-screen section">
+    <section
+      style={{ backgroundColor: "#ffea8b" }}
+      className="h-screen section"
+    >
       <div className="h-full container mx-auto flex flex-row items-center justify-center px-6 lg:px-28 space-x-0 sm:space-x-16 pt-14 sm:pt-16">
-        <div className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-green-700">
+        <div
+          style={{ color: "#063239" }}
+          className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-green-700"
+        >
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">Features</h2>
           {features.map((f, index) => (
             <div
               key={f.name}
+              style={{
+                backgroundColor:
+                  selectedFeature === index ? "#063239" : "#5ec1e8",
+              }}
               className={`w-full p-4 sm:p-4 flex flex-row items-center space-x-4 sm:space-x-4 shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer ${
                 selectedFeature === index
                   ? "shadow-xl bg-green-700 text-white"

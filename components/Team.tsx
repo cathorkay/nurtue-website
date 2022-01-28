@@ -25,12 +25,18 @@ const teamMembers = [
 
 const Team: React.FC = () => {
   return (
-    <section className="h-screen section">
-      <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
-        <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12 text-green-700">
+    <section
+      style={{ backgroundColor: "#5ec1e8" }}
+      className="h-screen section"
+    >
+      <div
+        style={{ color: "#063239" }}
+        className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-green-700"
+      >
+        <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12">
           Our Team
         </h2>
-        <div className="grid grid-cols-2 gap-4 lg:flex flex-row items-center justify-between lg:space-x-4 text-green-700">
+        <div className="grid grid-cols-2 gap-4 lg:flex flex-row items-center justify-between lg:space-x-4">
           {teamMembers.map((m) => (
             <div key={m.name} className="flex flex-col items-center">
               <Image
