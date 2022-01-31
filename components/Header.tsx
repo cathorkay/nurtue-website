@@ -59,9 +59,11 @@ const Header: React.FC = () => {
             src="/logo-image-small.png"
             alt="logo"
           />
-          <div className="font-bold text-xl sm:text-4xl ml-2 sm:ml-4">
-            Nurtue
-          </div>
+          <Image
+            className="ml-2 sm:ml-2 h-5 sm:h-7"
+            src="/logo-text-white.png"
+            alt="nurtue"
+          />
         </div>
         <nav
           id="nav"
