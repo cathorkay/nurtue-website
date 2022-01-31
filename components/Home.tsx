@@ -5,17 +5,19 @@ const Home: React.FC = () => {
     <section className="section bg-theme-yellow">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-12 sm:space-x-24 pt-14 sm:pt-16">
         <Image
-          className="w-auto h-2/5 sm:w-auto sm:h-96"
+          className="mx-auto w-11/12 h-auto sm:mx-0 sm:w-auto sm:h-96"
           src="logo-image.png"
           alt="logo"
           width={1024}
           height={1024}
         />
-        <div className="flex flex-col items-center h-2/5 sm:w-2/5 sm:h-auto text-theme-green text-center sm:text-left mt-8 sm:mt-0">
+        <div className="flex flex-col items-center w-full h-2/5 sm:w-2/5 sm:h-auto text-theme-green text-center sm:text-left mt-8 sm:mt-0">
           <Image
-            className="h-48 object-contain"
+            className="h-28 sm:h-48 object-contain"
             src="logo-text-phrase.png"
             alt="nurtue - be a better parent."
+            width={607}
+            height={236}
           />
           <div className="text-base sm:text-xl mt-6 sm:mt-12">
             Guided exercises and personalized advice to promote healthy

@@ -39,6 +39,8 @@ const FeatureImage: React.FC<{ feature: typeof features[0] }> = ({
       style={{ height: "96.8%" }}
       src={feature.image}
       alt={`feature screenshot of ${feature.name}`}
+      width={600}
+      height={1298}
     />
   );
 };
@@ -112,6 +114,8 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
               className="w-full h-full object-contain relative"
               src="iphone-frame.png"
               alt="iphone frame"
+              width={600}
+              height={1188}
             />
           </div>
         )}

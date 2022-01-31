@@ -14,7 +14,7 @@ const MyImage: React.FC<
     <img {...restProps} src={`${PUBLIC_IMAGE_URL}/${src}`} alt={alt} />
   ) : (
     <picture {...restProps}>
-      <source type="image/webp" src={`${PUBLIC_IMAGE_URL}/${src}.webp`} />
+      <source type="image/webp" srcSet={`${PUBLIC_IMAGE_URL}/${src}.webp`} />
       <img {...restProps} src={`${PUBLIC_IMAGE_URL}/${src}`} alt={alt} />
     </picture>
   );

@@ -55,14 +55,18 @@ const Header: React.FC = () => {
         </IconButton>
         <div className="flex flex-row items-center ml-2 sm:ml-0">
           <Image
-            className="h-8 sm:h-10"
-            src="/logo-image-small.png"
+            className="w-8 h-8 sm:w-10 sm:h-10"
+            src="logo-image-small.png"
             alt="logo"
+            width={256}
+            height={256}
           />
           <Image
-            className="ml-2 sm:ml-2 h-5 sm:h-7"
-            src="/logo-text-white.png"
+            className="ml-2 sm:ml-2 w-auto h-5 sm:h-7"
+            src="logo-text-white.png"
             alt="nurtue"
+            width={673}
+            height={151}
           />
         </div>
         <nav

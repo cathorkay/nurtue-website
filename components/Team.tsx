@@ -37,11 +37,13 @@ const Team: React.FC = () => {
                 className="rounded-full h-32 w-32 lg:h-44 lg:w-44 shadow-2xl"
                 src={m.photo}
                 alt={m.name}
+                width={500}
+                height={500}
               />
               <div className="text-base lg:text-lg font-medium mt-2 lg:mt-6">
                 {m.name}
               </div>
-              <div className="lg:mt-1">{m.role}</div>
+              <div className="text-sm lg:text-base lg:mt-1">{m.role}</div>
             </div>
           ))}
         </div>
