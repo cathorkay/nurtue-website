@@ -1,29 +1,31 @@
 import React, { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import HelpIcon from "@mui/icons-material/Help";
+import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn";
+import PeopleIcon from "@mui/icons-material/People";
 import Image from "components/Image";
 
 const features = [
   {
-    name: "Fox Jump 1",
+    name: "Expert Q&A",
     description:
-      "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
-    icon: <AutoAwesomeIcon />,
+      "Submit questions and receive responses and recommendations from parenting experts.",
+    icon: <HelpIcon />,
     image: "feature-1.png",
   },
   {
-    name: "Fox Jump 2",
+    name: "Parenting Skill Exercises",
     description:
-      "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
-    icon: <AutoAwesomeIcon />,
+      "Use quizzes to practice the parenting skills and apply them to real life.",
+    icon: <AssignmentTurnedInIcon />,
     image: "feature-2.png",
   },
   {
-    name: "Fox Jump 3",
+    name: "Conflict Resolution",
     description:
-      "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
-    icon: <AutoAwesomeIcon />,
+      "Incentivize parents and kids to solve problems together following best practices, and reward agreement follow-through.",
+    icon: <PeopleIcon />,
     image: "feature-3.png",
   },
 ];
@@ -70,27 +72,17 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
   }, [sm, featureCarouselOn]);
 
   return (
-    <section
-      style={{ backgroundColor: "#ffea8b" }}
-      className="h-screen section"
-    >
+    <section className="h-screen section bg-theme-blue">
       <div className="h-full container mx-auto flex flex-row items-center justify-center px-6 lg:px-28 space-x-0 sm:space-x-16 pt-14 sm:pt-16">
-        <div
-          style={{ color: "#063239" }}
-          className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-green-700"
-        >
+        <div className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-theme-black">
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">Features</h2>
           {features.map((f, index) => (
             <div
               key={f.name}
-              style={{
-                backgroundColor:
-                  selectedFeature === index ? "#063239" : "#5ec1e8",
-              }}
               className={`w-full p-4 sm:p-4 flex flex-row items-center space-x-4 sm:space-x-4 shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer ${
                 selectedFeature === index
-                  ? "shadow-xl bg-green-700 text-white"
-                  : "shadow-md"
+                  ? "shadow-xl bg-theme-black text-white"
+                  : "shadow-md bg-white text-theme-black"
               }`}
               onMouseOver={() => handleFeatureOver(index)}
               onMouseLeave={handleFeatureLeave}

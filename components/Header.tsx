@@ -2,6 +2,7 @@ import { useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import Image from "components/Image";
 
 const Links = () => (
   <>
@@ -38,10 +39,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header
-      style={{ backgroundColor: "#063239" }}
-      className="z-50 fixed top-0 inset-x-0 w-full h-14 sm:h-16 bg-green-700 text-white"
-    >
+    <header className="z-50 fixed top-0 inset-x-0 w-full h-14 sm:h-16 bg-theme-green text-white">
       <div className="flex flex-row items-center container h-full mx-auto px-2 sm:px-8">
         <IconButton
           sx={{
@@ -55,7 +53,16 @@ const Header: React.FC = () => {
         >
           <MenuIcon />
         </IconButton>
-        <div className="font-bold text-xl sm:text-4xl ml-2 sm:ml-0">Nurtue</div>
+        <div className="flex flex-row items-center ml-2 sm:ml-0">
+          <Image
+            className="h-8 sm:h-10"
+            src="/logo-image-small.png"
+            alt="logo"
+          />
+          <div className="font-bold text-xl sm:text-4xl ml-2 sm:ml-4">
+            Nurtue
+          </div>
+        </div>
         <nav
           id="nav"
           className="flex-row items-center space-x-8 ml-auto text-xl hidden sm:flex"

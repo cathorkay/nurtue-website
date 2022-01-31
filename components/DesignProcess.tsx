@@ -36,7 +36,7 @@ const listItems = [
     },
   },
   {
-    name: "Low-fi Prototype",
+    name: "Low-Fi Prototype",
     download1: {
       name: "Link",
       link: "",
@@ -69,7 +69,7 @@ const listItems = [
     },
   },
   {
-    name: "High-fi Prototype",
+    name: "High-Fi Prototype",
     download1: {
       name: "YouTube",
       link: "",
@@ -105,14 +105,14 @@ const listItems = [
 
 const DesignProcess: React.FC = () => {
   return (
-    <section className="h-screen section">
+    <section className="h-screen section bg-theme-yellow">
       <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
-        <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-green-700">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-theme-green">
           Design Process
         </h2>
         <table className="table-auto w-full text-white">
           <thead>
-            <tr className="bg-green-700 font-medium text-base sm:text-lg">
+            <tr className="bg-theme-green font-medium text-base sm:text-lg">
               <th className="p-1 sm:p-3">
                 <AutoGraphIcon /> Phase
               </th>
@@ -125,7 +125,7 @@ const DesignProcess: React.FC = () => {
             {listItems.map((item) => (
               <tr
                 key={item.name}
-                className="text-sm sm:text-base odd:bg-green-600 even:bg-green-700"
+                className="text-sm sm:text-base odd:bg-theme-green odd:bg-opacity-80 even:bg-theme-green"
               >
                 <td className="p-2 sm:p-3 font-medium">{item.name}</td>
                 <td className="p-1 sm:p-2">

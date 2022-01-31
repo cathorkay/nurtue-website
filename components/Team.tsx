@@ -25,14 +25,8 @@ const teamMembers = [
 
 const Team: React.FC = () => {
   return (
-    <section
-      style={{ backgroundColor: "#5ec1e8" }}
-      className="h-screen section"
-    >
-      <div
-        style={{ color: "#063239" }}
-        className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-green-700"
-      >
+    <section className="h-screen section bg-theme-blue">
+      <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-theme-black">
         <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12">
           Our Team
         </h2>
