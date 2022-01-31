@@ -2,22 +2,22 @@ import Image from "components/Image";
 
 const teamMembers = [
   {
-    name: "Meng G",
+    name: "Meng G.",
     photo: "meng.jpg",
     role: "UX Researcher",
   },
   {
-    name: "Catherine H",
+    name: "Catherine H.",
     photo: "cat.jpg",
     role: "Product Manager",
   },
   {
-    name: "Dyllen N",
+    name: "Dyllen N.",
     photo: "dyllen.jpg",
     role: "Product Designer",
   },
   {
-    name: "Rui Y",
+    name: "Rui Y.",
     photo: "rui.jpg",
     role: "Software Engineer",
   },
