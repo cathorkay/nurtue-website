@@ -6,33 +6,33 @@ const listItems = [
     name: "Needfinding",
     download1: {
       name: "PDF",
-      link: "",
+      link: "files/nurtue-needfinding.pdf",
     },
     download2: {
-      name: "PPT",
-      link: "",
+      name: "PPTX",
+      link: "files/nurtue-needfinding.pptx",
     },
   },
   {
     name: "Point of Views & Experience Prototypes",
     download1: {
       name: "PDF",
-      link: "",
+      link: "files/nurtue-point-of-views-experience-prototypes.pdf",
     },
     download2: {
-      name: "PPT",
-      link: "",
+      name: "PPTX",
+      link: "files/nurtue-point-of-views-experience-prototypes.pptx",
     },
   },
   {
     name: "Concept Video",
     download1: {
       name: "YouTube",
-      link: "",
+      link: "https://youtu.be/gOhAjuXXdq4",
     },
     download2: {
       name: "MP4",
-      link: "",
+      link: "videos/nurtue-concept-video.mp4",
     },
   },
   {
@@ -64,7 +64,7 @@ const listItems = [
       link: "",
     },
     download2: {
-      name: "PPT",
+      name: "PPTX",
       link: "",
     },
   },
@@ -86,7 +86,7 @@ const listItems = [
       link: "",
     },
     download2: {
-      name: "PPT",
+      name: "PPTX",
       link: "",
     },
   },
@@ -97,7 +97,7 @@ const listItems = [
       link: "",
     },
     download2: {
-      name: "Source",
+      name: "Source File",
       link: "",
     },
   },
@@ -129,34 +129,35 @@ const DesignProcess: React.FC = () => {
               >
                 <td className="p-2 sm:p-3 font-medium">{item.name}</td>
                 <td className="p-1 sm:p-2">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={item.download1.link}
-                  >
-                    {item.download1.name}
-                  </a>
-                </td>
-                <td className="p-1 sm:p-2">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={item.download2.link}
-                  >
-                    {item.download2.name}
-                  </a>
-                </td>
-                {/* <td className="p-2">
-                  {item.download3 ? (
+                  {item.download1.link ? (
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={item.download3.link}
+                      href={item.download1.link}
                     >
-                      {item.download3.name}
+                      {item.download1.name}
                     </a>
-                  ) : null}
-                </td> */}
+                  ) : (
+                    <span className="text-theme-black text-opacity-50">
+                      {item.download1.name}
+                    </span>
+                  )}
+                </td>
+                <td className="p-1 sm:p-2">
+                  {item.download2.link ? (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={item.download2.link}
+                    >
+                      {item.download2.name}
+                    </a>
+                  ) : (
+                    <span className="text-theme-black text-opacity-50">
+                      {item.download2.name}
+                    </span>
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
