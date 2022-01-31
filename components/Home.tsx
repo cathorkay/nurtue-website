@@ -2,12 +2,14 @@ import Image from "components/Image";
 
 const Home: React.FC = () => {
   return (
-    <section className="h-screen section bg-theme-yellow">
+    <section className="section bg-theme-yellow">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-12 sm:space-x-24 pt-14 sm:pt-16">
         <Image
           className="w-auto h-2/5 sm:w-auto sm:h-96"
           src="logo-image.png"
           alt="logo"
+          width={1024}
+          height={1024}
         />
         <div className="flex flex-col items-center h-2/5 sm:w-2/5 sm:h-auto text-theme-green text-center sm:text-left mt-8 sm:mt-0">
           <Image
