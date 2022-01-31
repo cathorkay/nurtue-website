@@ -86,7 +86,7 @@ const Header: React.FC = () => {
           >
             <nav
               id="nav"
-              className="flex-col w-36 h-full pt-16 px-4 space-y-4 bg-green-700 text-white flex sm:hidden"
+              className="flex-col w-36 h-full pt-16 px-4 space-y-4 bg-theme-green text-white flex sm:hidden"
             >
               <Links />
             </nav>
