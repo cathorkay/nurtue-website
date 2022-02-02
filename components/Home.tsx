@@ -15,9 +15,9 @@ const Home: React.FC = () => {
           <Image
             className="h-28 sm:h-48 object-contain"
             src="logo-text-phrase.png"
-            alt="nurtue - be a better parent."
-            width={607}
-            height={236}
+            alt="nurtue - grow together."
+            width={1224}
+            height={512}
           />
           <div className="text-base sm:text-xl mt-6 sm:mt-12">
             Guided exercises and personalized advice to promote healthy

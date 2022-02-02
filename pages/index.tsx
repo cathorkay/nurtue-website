@@ -46,7 +46,7 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Nurtue - Be a better parent</title>
+        <title>Nurtue - Grow together</title>
         <meta
           name="description"
           content="Guided exercises and personalized advice to promote healthy communication and conflict resolution between parents and children."
