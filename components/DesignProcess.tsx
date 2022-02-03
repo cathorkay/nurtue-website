@@ -105,14 +105,14 @@ const listItems = [
 
 const DesignProcess: React.FC = () => {
   return (
-    <section className="section bg-theme-yellow">
+    <section className="section bg-theme-blue">
       <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
         <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-theme-green">
           Design Process
         </h2>
         <table className="table-auto w-full text-white">
           <thead>
-            <tr className="bg-theme-green font-medium text-base sm:text-lg">
+            <tr className="bg-theme-black font-medium text-base sm:text-lg">
               <th className="p-1 sm:p-3">
                 <AutoGraphIcon /> Phase
               </th>
@@ -125,7 +125,7 @@ const DesignProcess: React.FC = () => {
             {listItems.map((item) => (
               <tr
                 key={item.name}
-                className="text-sm sm:text-base odd:bg-theme-green odd:bg-opacity-80 even:bg-theme-green"
+                className="text-sm sm:text-base odd:bg-theme-green even:bg-theme-black"
               >
                 <td className="p-2 sm:p-3 font-medium">{item.name}</td>
                 <td className="p-1 sm:p-2">
@@ -138,7 +138,7 @@ const DesignProcess: React.FC = () => {
                       {item.download1.name}
                     </a>
                   ) : (
-                    <span className="text-theme-black text-opacity-50">
+                    <span className="text-white text-opacity-50">
                       {item.download1.name}
                     </span>
                   )}
@@ -153,7 +153,7 @@ const DesignProcess: React.FC = () => {
                       {item.download2.name}
                     </a>
                   ) : (
-                    <span className="text-theme-black text-opacity-50">
+                    <span className="text-white text-opacity-50">
                       {item.download2.name}
                     </span>
                   )}

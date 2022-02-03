@@ -25,8 +25,8 @@ const teamMembers = [
 
 const Team: React.FC = () => {
   return (
-    <section className="section bg-theme-blue">
-      <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-theme-black">
+    <section className="section bg-theme-red">
+      <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-white">
         <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12">
           Our Team
         </h2>
