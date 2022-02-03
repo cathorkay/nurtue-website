@@ -1,8 +1,8 @@
 const Concept: React.FC = () => {
   return (
-    <section className="section bg-theme-yellow">
+    <section className="section bg-theme-red">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-28 pt-14 sm:pt-16">
-        <div className="mb-16 sm:mb-0 sm:w-1/3 text-theme-black">
+        <div className="mb-16 sm:mb-0 sm:w-1/3 text-white">
           <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12">
             Concept
           </h2>

@@ -74,9 +74,9 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
   }, [sm, featureCarouselOn]);
 
   return (
-    <section className="section bg-theme-red">
+    <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-row items-center justify-center px-6 lg:px-28 space-x-0 sm:space-x-16 pt-14 sm:pt-16">
-        <div className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-white">
+        <div className="flex flex-col sm:w-3/5 space-y-2 sm:space-y-8 text-theme-black">
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">Features</h2>
           {features.map((f, index) => (
             <div

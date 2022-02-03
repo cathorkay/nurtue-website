@@ -2,7 +2,7 @@ import Image from "components/Image";
 
 const Home: React.FC = () => {
   return (
-    <section className="section bg-theme-blue">
+    <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-12 sm:space-x-24 pt-14 sm:pt-16">
         <Image
           className="mx-auto w-11/12 h-auto sm:mx-0 sm:w-auto sm:h-96"

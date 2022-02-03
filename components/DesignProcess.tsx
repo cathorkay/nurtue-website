@@ -105,9 +105,9 @@ const listItems = [
 
 const DesignProcess: React.FC = () => {
   return (
-    <section className="section bg-theme-blue">
+    <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16">
-        <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-theme-green">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-12 text-theme-black">
           Design Process
         </h2>
         <table className="table-auto w-full text-white">
