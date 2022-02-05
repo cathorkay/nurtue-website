@@ -38,12 +38,16 @@ const listItems = [
   {
     name: "Low-Fi Prototype",
     download1: {
-      name: "Link",
-      link: "",
+      name: "Report PDF",
+      link: "files/nurtue-low-fi-prototype-report.pdf",
     },
     download2: {
-      name: "Instructions",
-      link: "",
+      name: "Slides PDF",
+      link: "files/nurtue-low-fi-prototype-slides.pdf",
+    },
+    download3: {
+      name: "Slides PPTX",
+      link: "files/nurtue-low-fi-prototype-slides.pptx",
     },
   },
   {
@@ -143,7 +147,7 @@ const DesignProcess: React.FC = () => {
                     </span>
                   )}
                 </td>
-                <td className="p-1 sm:p-2">
+                <td className="p-1 sm:p-2 space-x-2 sm:space-x-4">
                   {item.download2.link ? (
                     <a
                       target="_blank"
@@ -156,6 +160,15 @@ const DesignProcess: React.FC = () => {
                     <span className="text-white text-opacity-50">
                       {item.download2.name}
                     </span>
+                  )}
+                  {item.download3 && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={item.download3.link}
+                    >
+                      {item.download3.name}
+                    </a>
                   )}
                 </td>
               </tr>
