@@ -49,7 +49,9 @@ const Index: NextPage = () => {
         <title>Nurtue - Grow together</title>
         <meta
           name="description"
-          content="Guided exercises and personalized advice to promote healthy communication and conflict resolution between parents and children."
+          content="Nurtue exists to improve relationships between parents and their
+          children by promoting healthy communication habits and communal
+          support."
         />
         <link
           rel="apple-touch-icon"

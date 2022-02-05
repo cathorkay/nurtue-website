@@ -20,8 +20,9 @@ const Home: React.FC = () => {
             height={512}
           />
           <div className="text-base sm:text-xl mt-6 sm:mt-12">
-            Guided exercises and personalized advice to promote healthy
-            communication and conflict resolution between parents and children.
+            Nurtue exists to improve relationships between parents and their
+            children by promoting healthy communication habits and communal
+            support.
           </div>
         </div>
       </div>
