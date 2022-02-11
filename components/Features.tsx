@@ -1,31 +1,31 @@
 import React, { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import HelpIcon from "@mui/icons-material/Help";
+import CommentIcon from "@mui/icons-material/Comment";
 import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn";
-import PeopleIcon from "@mui/icons-material/People";
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import Image from "components/Image";
 
 const features = [
   {
-    name: "Expert Q&A",
+    name: "Community",
     description:
-      "Submit questions and receive responses and recommendations from parenting experts.",
-    icon: <HelpIcon />,
+      "Share your parenting struggles to get advice from fellow parents  and experts in the field.",
+    icon: <CommentIcon />,
     image: "feature-1.png",
-  },
-  {
-    name: "Parenting Skill Exercises",
-    description:
-      "Use quizzes to practice the parenting skills and apply them to real life.",
-    icon: <AssignmentTurnedInIcon />,
-    image: "feature-2.png",
   },
   {
     name: "Conflict Resolution",
     description:
-      "Incentivize parents and kids to solve problems together following best practices, and reward agreement follow-through.",
-    icon: <PeopleIcon />,
+      "Resolve a conflict with your child in a peaceful and guided manner, and come to an agreement that you can reference later.",
+    icon: <SupervisorAccountIcon />,
+    image: "feature-2.png",
+  },
+  {
+    name: "Practice",
+    description:
+      "Practice an effective language to communicate with your child through interactive quizzes.",
+    icon: <AssignmentTurnedInIcon />,
     image: "feature-3.png",
   },
 ];
