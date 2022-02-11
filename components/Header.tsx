@@ -65,8 +65,8 @@ const Header: React.FC = () => {
             className="ml-2 sm:ml-2 w-auto h-5 sm:h-7"
             src="logo-text-white.png"
             alt="nurtue"
-            width={673}
-            height={151}
+            width={668}
+            height={144}
           />
         </div>
         <nav
