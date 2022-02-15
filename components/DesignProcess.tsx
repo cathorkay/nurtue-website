@@ -4,106 +4,127 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 const listItems = [
   {
     name: "Needfinding",
-    download1: {
-      name: "PDF",
-      link: "files/nurtue-needfinding.pdf",
-    },
-    download2: {
-      name: "PPTX",
-      link: "files/nurtue-needfinding.pptx",
-    },
+    downloads: [
+      {
+        name: "Slides PDF",
+        link: "files/nurtue-needfinding.pdf",
+      },
+      {
+        name: "Slides PPTX",
+        link: "files/nurtue-needfinding.pptx",
+      },
+    ],
   },
   {
     name: "Point of Views & Experience Prototypes",
-    download1: {
-      name: "PDF",
-      link: "files/nurtue-point-of-views-experience-prototypes.pdf",
-    },
-    download2: {
-      name: "PPTX",
-      link: "files/nurtue-point-of-views-experience-prototypes.pptx",
-    },
+    downloads: [
+      {
+        name: "Slides PDF",
+        link: "files/nurtue-point-of-views-experience-prototypes.pdf",
+      },
+      {
+        name: "Slides PPTX",
+        link: "files/nurtue-point-of-views-experience-prototypes.pptx",
+      },
+    ],
   },
   {
     name: "Concept Video",
-    download1: {
-      name: "YouTube",
-      link: "https://youtu.be/gOhAjuXXdq4",
-    },
-    download2: {
-      name: "MP4",
-      link: "videos/nurtue-concept-video.mp4",
-    },
+    downloads: [
+      {
+        name: "Video YouTube",
+        link: "https://youtu.be/UxzL_elN3pA",
+      },
+      {
+        name: "Video MP4",
+        link: "videos/nurtue-concept-video.mp4",
+      },
+      {
+        name: "Slides PDF",
+        link: "files/nurtue-concept-video-slides.pdf",
+      },
+      {
+        name: "Slides PPTX",
+        link: "files/nurtue-concept-video-slides.pptx",
+      },
+    ],
   },
   {
-    name: "Low-Fi Prototype",
-    download1: {
-      name: "Report PDF",
-      link: "files/nurtue-low-fi-prototype-report.pdf",
-    },
-    download2: {
-      name: "Slides PDF",
-      link: "files/nurtue-low-fi-prototype-slides.pdf",
-    },
-    download3: {
-      name: "Slides PPTX",
-      link: "files/nurtue-low-fi-prototype-slides.pptx",
-    },
+    name: "Low-Fidelity Prototype",
+    downloads: [
+      {
+        name: "Report PDF",
+        link: "files/nurtue-low-fi-prototype-report.pdf",
+      },
+      {
+        name: "Slides PDF",
+        link: "files/nurtue-low-fi-prototype-slides.pdf",
+      },
+      {
+        name: "Slides PPTX",
+        link: "files/nurtue-low-fi-prototype-slides.pptx",
+      },
+    ],
   },
   {
-    name: "Medium-Fi Prototype",
-    download1: {
-      name: "Link",
-      link: "",
-    },
-    download2: {
-      name: "Instructions",
-      link: "",
-    },
+    name: "Medium-Fidelity Prototype",
+    downloads: [
+      {
+        name: "Prototype Link",
+        link: "https://www.figma.com/proto/cUHZyzkI5lwQRHRcCsZlSS/Nurtue-MedFi-Prototype?node-id=123%3A3527&scaling=scale-down&page-id=0%3A1&starting-point-node-id=123%3A3527",
+      },
+      {
+        name: "Prototype README",
+        link: "files/nurtue-med-fi-prototype-readme.pdf",
+      },
+      {
+        name: "Slides PDF",
+        link: "files/nurtue-med-fi-prototype-slides.pdf",
+      },
+      {
+        name: "Slides PPTX",
+        link: "files/nurtue-med-fi-prototype-slides.pptx",
+      },
+    ],
   },
   {
     name: "Group Heuristic Evaluation",
-    download1: {
-      name: "PDF",
-      link: "",
-    },
-    download2: {
-      name: "PPTX",
-      link: "",
-    },
+    downloads: [
+      {
+        name: "PDF",
+        link: "",
+      },
+      {
+        name: "PPTX",
+        link: "",
+      },
+    ],
   },
   {
-    name: "High-Fi Prototype",
-    download1: {
-      name: "YouTube",
-      link: "",
-    },
-    download2: {
-      name: "MP4",
-      link: "",
-    },
+    name: "High-Fidelity Prototype",
+    downloads: [
+      {
+        name: "YouTube",
+        link: "",
+      },
+      {
+        name: "MP4",
+        link: "",
+      },
+    ],
   },
   {
-    name: "Pitch Slides",
-    download1: {
-      name: "PDF",
-      link: "",
-    },
-    download2: {
-      name: "PPTX",
-      link: "",
-    },
-  },
-  {
-    name: "Poster",
-    download1: {
-      name: "PDF",
-      link: "",
-    },
-    download2: {
-      name: "Source File",
-      link: "",
-    },
+    name: "Poster & Pitch Slides",
+    downloads: [
+      {
+        name: "PDF",
+        link: "",
+      },
+      {
+        name: "PPTX",
+        link: "",
+      },
+    ],
   },
 ];
 
@@ -132,44 +153,27 @@ const DesignProcess: React.FC = () => {
                 className="text-sm sm:text-base odd:bg-theme-green even:bg-theme-black"
               >
                 <td className="p-2 sm:p-3 font-medium">{item.name}</td>
-                <td className="p-1 sm:p-2">
-                  {item.download1.link ? (
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={item.download1.link}
-                    >
-                      {item.download1.name}
-                    </a>
-                  ) : (
-                    <span className="text-white text-opacity-50">
-                      {item.download1.name}
-                    </span>
-                  )}
-                </td>
                 <td className="p-1 sm:p-2 space-x-2 sm:space-x-4">
-                  {item.download2.link ? (
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={item.download2.link}
-                    >
-                      {item.download2.name}
-                    </a>
-                  ) : (
-                    <span className="text-white text-opacity-50">
-                      {item.download2.name}
-                    </span>
-                  )}
-                  {item.download3 && (
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={item.download3.link}
-                    >
-                      {item.download3.name}
-                    </a>
-                  )}
+                  {item.downloads.map((download, index) => (
+                    <>
+                      {download.link ? (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={download.link}
+                        >
+                          {download.name}
+                        </a>
+                      ) : (
+                        <span className="text-white text-opacity-50">
+                          {download.name}
+                        </span>
+                      )}
+                      {index !== item.downloads.length - 1 && (
+                        <span className="cursor-default">•</span>
+                      )}
+                    </>
+                  ))}
                 </td>
               </tr>
             ))}

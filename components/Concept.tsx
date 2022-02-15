@@ -7,14 +7,14 @@ const Concept: React.FC = () => {
             Concept
           </h2>
           <div className="text-base sm:text-2xl">
-            Nurtue makes conflict resolution between parents and kids more
-            rewarding, uses quizzes to help parents practice parenting skills
-            and connect parents with experts for recommendations.
+            Nurtue connects parents with experts for recommendations, uses
+            quizzes to help parents practice parenting skills and makes conflict
+            resolution between parents and kids more meaningful.
           </div>
         </div>
         <div className="w-full h-2/5 sm:w-2/3 ml-auto sm:ml-16 aspect-w-16 aspect-h-6">
           <iframe
-            src="https://www.youtube.com/embed/gOhAjuXXdq4"
+            src="https://www.youtube.com/embed/UxzL_elN3pA"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"

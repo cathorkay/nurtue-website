@@ -35,12 +35,11 @@ const FeatureImage: React.FC<{ feature: typeof features[0] }> = ({
 }) => {
   return (
     <Image
-      className="w-full absolute inset-y-0 my-auto object-contain"
-      style={{ height: "96.8%" }}
+      className="w-full h-full absolute inset-y-0 my-auto object-contain"
       src={feature.image}
-      alt={`feature screenshot of ${feature.name}`}
+      alt={feature.name}
       width={600}
-      height={1298}
+      height={1200}
     />
   );
 };
@@ -100,7 +99,7 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
           ))}
         </div>
         {sm && (
-          <div className="w-2/5 h-3/5 relative">
+          <div className="w-2/5 h-4/5 relative">
             <TransitionGroup>
               <CSSTransition
                 key={features[selectedFeature].name}
@@ -110,13 +109,6 @@ const Features: React.FC<{ on: boolean }> = ({ on }) => {
                 <FeatureImage feature={features[selectedFeature]} />
               </CSSTransition>
             </TransitionGroup>
-            <Image
-              className="w-full h-full object-contain relative"
-              src="iphone-frame.png"
-              alt="iphone frame"
-              width={600}
-              height={1188}
-            />
           </div>
         )}
       </div>
