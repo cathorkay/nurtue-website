@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
@@ -155,7 +156,7 @@ const DesignProcess: React.FC = () => {
                 <td className="p-2 sm:p-3 font-medium">{item.name}</td>
                 <td className="p-1 sm:p-2 space-x-2 sm:space-x-4">
                   {item.downloads.map((download, index) => (
-                    <>
+                    <Fragment key={download.name}>
                       {download.link ? (
                         <a
                           target="_blank"
@@ -172,7 +173,7 @@ const DesignProcess: React.FC = () => {
                       {index !== item.downloads.length - 1 && (
                         <span className="cursor-default">•</span>
                       )}
-                    </>
+                    </Fragment>
                   ))}
                 </td>
               </tr>
