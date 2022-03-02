@@ -92,12 +92,8 @@ const listItems = [
     name: "Group Heuristic Evaluation",
     downloads: [
       {
-        name: "PDF",
-        link: "",
-      },
-      {
-        name: "PPTX",
-        link: "",
+        name: "Report PDF",
+        link: "files/nurtue-heuristic-evaluation.pdf",
       },
     ],
   },
@@ -105,24 +101,40 @@ const listItems = [
     name: "High-Fidelity Prototype",
     downloads: [
       {
-        name: "YouTube",
+        name: "Demo YouTube",
         link: "",
       },
       {
-        name: "MP4",
+        name: "Demo MP4",
+        link: "",
+      },
+      {
+        name: "Source Code",
+        link: "",
+      },
+      {
+        name: "Instructions",
         link: "",
       },
     ],
   },
   {
-    name: "Poster & Pitch Slides",
+    name: "Poster & Pitch Slide",
     downloads: [
       {
-        name: "PDF",
+        name: "Poster PDF",
         link: "",
       },
       {
-        name: "PPTX",
+        name: "Poster PSD",
+        link: "",
+      },
+      {
+        name: "Pitch Slide PDF",
+        link: "",
+      },
+      {
+        name: "Pitch Slide PPTX",
         link: "",
       },
     ],
