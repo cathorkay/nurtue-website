@@ -101,20 +101,28 @@ const listItems = [
     name: "High-Fidelity Prototype",
     downloads: [
       {
+        name: "Prototype Source Code",
+        link: "https://github.com/robertying/nurtue-app",
+      },
+      {
+        name: "Prototype README",
+        link: "https://github.com/robertying/nurtue-app/blob/main/README.md",
+      },
+      {
         name: "Demo YouTube",
-        link: "",
+        link: "https://youtu.be/sPQrY5DLeKI",
       },
       {
         name: "Demo MP4",
-        link: "",
+        link: "videos/nurtue-demo-video.mp4",
       },
       {
-        name: "Source Code",
-        link: "",
+        name: "Slides PDF",
+        link: "files/nurtue-hi-fi-prototype-slides.pdf",
       },
       {
-        name: "Instructions",
-        link: "",
+        name: "Slides PPTX",
+        link: "files/nurtue-hi-fi-prototype-slides.pptx",
       },
     ],
   },
@@ -123,19 +131,19 @@ const listItems = [
     downloads: [
       {
         name: "Poster PDF",
-        link: "",
+        link: "files/nurtue-poster.pdf",
       },
       {
-        name: "Poster PSD",
-        link: "",
+        name: "Poster Source File (Canva)",
+        link: "https://www.canva.com/design/DAE53zirhn4/gOOtuG5FrpdDetl8S95ltA/view",
       },
       {
         name: "Pitch Slide PDF",
-        link: "",
+        link: "files/nurtue-pitch-slide.pdf",
       },
       {
         name: "Pitch Slide PPTX",
-        link: "",
+        link: "files/nurtue-pitch-slide.pptx",
       },
     ],
   },

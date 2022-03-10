@@ -6,16 +6,18 @@ const Demo: React.FC = () => {
           <h2 className="text-2xl sm:text-5xl font-bold mb-4 sm:mb-12">Demo</h2>
           <div className="text-base sm:text-2xl">
             <a
-              href="#design-process"
+              href="https://github.com/robertying/nurtue-app#readme"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block no-underline text-center rounded-2xl ring-2 ring-white bg-theme-red hover:bg-red-300 w-full sm:w-auto px-6 py-3 sm:px-16 sm:py-4"
             >
               Try Prototype
             </a>
           </div>
         </div>
-        <div className="w-full h-2/5 sm:w-2/3 ml-auto sm:ml-16 aspect-w-16 aspect-h-6">
+        <div className="w-full h-2/5 sm:w-9/12 ml-auto sm:ml-16 aspect-w-16 aspect-h-6">
           <iframe
-            src="https://www.youtube.com/embed/UxzL_elN3pA"
+            src="https://www.youtube.com/embed/sPQrY5DLeKI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"

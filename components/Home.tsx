@@ -19,10 +19,10 @@ const Home: React.FC = () => {
             width={1224}
             height={512}
           />
-          <div className="text-base text-center sm:text-xl mt-10 sm:mt-12 sm:w-9/12">
-            Nurtue exists to improve relationships between parents and their
-            children by promoting healthy communication habits and communal
-            support.
+          <div className="text-base text-center sm:text-xl mt-10 sm:mt-12 sm:w-11/12">
+            Nurtue exists to improve the relationship between parents and their
+            children through healthy communication habits, guided conflict
+            resolution, and communal support.
           </div>
         </div>
         <div className="hidden sm:flex items-center fixed -z-10 inset-y-0 left-1/4 h-screen w-full">
