@@ -46,12 +46,12 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Nurtue - Grow together</title>
+        <title>Nurtue - Grow together.</title>
         <meta
           name="description"
-          content="Nurtue exists to improve relationships between parents and their
-          children by promoting healthy communication habits and communal
-          support."
+          content="Nurtue exists to improve the relationship between parents and their
+          children through healthy communication habits, guided conflict
+          resolution, and communal support."
         />
         <link
           rel="apple-touch-icon"
