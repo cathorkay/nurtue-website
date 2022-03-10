@@ -8,4 +8,4 @@
 
 Grow together.
 
-<https://web.stanford.edu/class/cs147/projects/CaringFromWithin/Nurtue>
+<https://hci.stanford.edu/class/cs147/projects/CaringFromWithin/Nurtue>
