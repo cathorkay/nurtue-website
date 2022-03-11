@@ -24,7 +24,7 @@ const features = [
   {
     name: "Practice",
     description:
-      "Practice an effective language to communicate with your child through interactive quizzes.",
+      "Practice effective language to communicate with your child through interactive quizzes.",
     icon: <AssignmentTurnedInIcon />,
     image: "feature-3.png",
   },
