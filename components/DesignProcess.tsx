@@ -101,12 +101,12 @@ const listItems = [
     name: "High-Fidelity Prototype",
     downloads: [
       {
-        name: "Prototype Source Code",
+        name: "Prototype Link",
         link: "https://github.com/robertying/nurtue-app",
       },
       {
         name: "Prototype README",
-        link: "https://github.com/robertying/nurtue-app/blob/main/README.md",
+        link: "files/nurtue-hi-fi-prototype-readme.pdf",
       },
       {
         name: "Demo YouTube",
@@ -144,6 +144,15 @@ const listItems = [
       {
         name: "Pitch Slide PPTX",
         link: "files/nurtue-pitch-slide.pptx",
+      },
+    ],
+  },
+  {
+    name: "Final Report",
+    downloads: [
+      {
+        name: "Report PDF",
+        link: "files/nurtue-final-report.pdf",
       },
     ],
   },

@@ -6,7 +6,7 @@ const Demo: React.FC = () => {
           <h2 className="text-2xl sm:text-5xl font-bold mb-4 sm:mb-12">Demo</h2>
           <div className="text-base sm:text-2xl">
             <a
-              href="https://github.com/robertying/nurtue-app#readme"
+              href="files/nurtue-hi-fi-prototype-readme.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block no-underline text-center rounded-2xl ring-2 ring-white bg-theme-red hover:bg-red-300 w-full sm:w-auto px-6 py-3 sm:px-16 sm:py-4"
