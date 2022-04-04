@@ -17,7 +17,7 @@ const Demo: React.FC = () => {
         </div>
         <div className="w-full h-2/5 sm:w-9/12 ml-auto sm:ml-16 aspect-w-16 aspect-h-6">
           <iframe
-            src="https://www.youtube.com/embed/sPQrY5DLeKI"
+            src="https://www.youtube.com/embed/O0YyyPiGg1U"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
