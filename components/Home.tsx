@@ -2,7 +2,7 @@ import Image from "components/Image";
 
 const Home: React.FC = () => {
   return (
-    <section className="section bg-theme-lightblue">
+    <section className="section bg-theme-lightblue relative overflow-hidden">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center sm:justify-start px-6 lg:px-12 pt-14 sm:pt-16">
         <div className="flex flex-col items-center w-full sm:w-5/12 text-theme-green text-center">
           <Image
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
             resolution, and communal support.
           </div>
         </div>
-        <div className="hidden sm:flex items-center fixed -z-10 inset-y-0 left-1/4 h-screen w-full">
+        <div className="hidden sm:flex items-center absolute -z-10 inset-y-0 left-1/4 h-screen w-full">
           <Image
             className="h-full object-contain -mb-32"
             src="home-screenshots.png"

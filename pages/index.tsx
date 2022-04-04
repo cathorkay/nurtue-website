@@ -22,9 +22,9 @@ const Index: NextPage = () => {
         scrollBar: true,
         anchors: [
           "home",
-          "concept",
           "features",
           "demo",
+          "concept",
           "design-process",
           "team",
           "footer",
@@ -78,9 +78,9 @@ const Index: NextPage = () => {
       <Header />
       <main id="fullpage">
         <Home />
-        <Concept />
         <Features on={onFeaturePage} />
         <Demo />
+        <Concept />
         <DesignProcess />
         <Team />
         <Footer />

@@ -2,22 +2,22 @@ import Image from "components/Image";
 
 const teamMembers = [
   {
-    name: "Meng G.",
-    photo: "meng.jpg",
-    role: "UX Researcher",
-  },
-  {
-    name: "Catherine H.",
+    name: "Catherine Horkay",
     photo: "cat.jpg",
-    role: "Product Manager",
+    role: "Chief Executive Officer (CEO)",
   },
   {
-    name: "Dyllen N.",
+    name: "Dyllen Nellis",
     photo: "dyllen.jpg",
-    role: "Product Designer",
+    role: "Chief Design Officer (CDO)",
   },
   {
-    name: "Rui Y.",
+    name: "Meng Guo",
+    photo: "meng.jpg",
+    role: "Chief Operating Officer (COO)",
+  },
+  {
+    name: "Rui Ying",
     photo: "rui.jpg",
     role: "Software Engineer",
   },
@@ -43,7 +43,9 @@ const Team: React.FC = () => {
               <div className="text-base lg:text-lg font-medium mt-2 lg:mt-6">
                 {m.name}
               </div>
-              <div className="text-sm lg:text-base lg:mt-1">{m.role}</div>
+              <div className="text-sm lg:text-base lg:mt-1 text-center">
+                {m.role}
+              </div>
             </div>
           ))}
         </div>

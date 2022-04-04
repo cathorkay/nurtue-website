@@ -9,14 +9,14 @@ const Links = () => (
     <a data-menuanchor="home" href="#home">
       Home
     </a>
-    <a data-menuanchor="concept" href="#concept">
-      Concept
-    </a>
     <a data-menuanchor="features" href="#features">
       Features
     </a>
     <a data-menuanchor="demo" href="#demo">
       Demo
+    </a>
+    <a data-menuanchor="concept" href="#concept">
+      Concept
     </a>
     <a data-menuanchor="design-process" href="#design-process">
       Process

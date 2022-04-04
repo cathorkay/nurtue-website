@@ -1,15 +1,15 @@
 const Demo: React.FC = () => {
   return (
-    <section className="section bg-theme-red">
+    <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-28 pt-14 sm:pt-16">
-        <div className="mb-16 w-full sm:mb-0 sm:w-1/3 text-white">
+        <div className="mb-16 w-full sm:mb-0 sm:w-1/3 text-theme-black">
           <h2 className="text-2xl sm:text-5xl font-bold mb-4 sm:mb-12">Demo</h2>
           <div className="text-base sm:text-2xl">
             <a
               href="files/nurtue-hi-fi-prototype-readme.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block no-underline text-center rounded-2xl ring-2 ring-white bg-theme-red hover:bg-red-300 w-full sm:w-auto px-6 py-3 sm:px-16 sm:py-4"
+              className="inline-block no-underline text-center rounded-2xl ring-2 ring-theme-black bg-theme-lightblue hover:bg-cyan-200 w-full sm:w-auto px-6 py-3 sm:px-16 sm:py-4"
             >
               Try Prototype
             </a>
