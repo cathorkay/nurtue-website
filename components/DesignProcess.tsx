@@ -4,32 +4,6 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const listItems = [
   {
-    name: "Needfinding",
-    downloads: [
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-needfinding.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-needfinding.pptx",
-      },
-    ],
-  },
-  {
-    name: "Point of Views & Experience Prototypes",
-    downloads: [
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-point-of-views-experience-prototypes.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-point-of-views-experience-prototypes.pptx",
-      },
-    ],
-  },
-  {
     name: "Concept Video",
     downloads: [
       {
@@ -39,31 +13,6 @@ const listItems = [
       {
         name: "Video MP4",
         link: "videos/nurtue-concept-video.mp4",
-      },
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-concept-video-slides.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-concept-video-slides.pptx",
-      },
-    ],
-  },
-  {
-    name: "Low-Fidelity Prototype",
-    downloads: [
-      {
-        name: "Report PDF",
-        link: "files/nurtue-low-fi-prototype-report.pdf",
-      },
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-low-fi-prototype-slides.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-low-fi-prototype-slides.pptx",
       },
     ],
   },
@@ -77,23 +26,6 @@ const listItems = [
       {
         name: "Prototype README",
         link: "files/nurtue-med-fi-prototype-readme.pdf",
-      },
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-med-fi-prototype-slides.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-med-fi-prototype-slides.pptx",
-      },
-    ],
-  },
-  {
-    name: "Group Heuristic Evaluation",
-    downloads: [
-      {
-        name: "Report PDF",
-        link: "files/nurtue-heuristic-evaluation.pdf",
       },
     ],
   },
@@ -116,14 +48,6 @@ const listItems = [
         name: "Demo MP4",
         link: "videos/nurtue-demo-video.mp4",
       },
-      {
-        name: "Slides PDF",
-        link: "files/nurtue-hi-fi-prototype-slides.pdf",
-      },
-      {
-        name: "Slides PPTX",
-        link: "files/nurtue-hi-fi-prototype-slides.pptx",
-      },
     ],
   },
   {
@@ -144,15 +68,6 @@ const listItems = [
       {
         name: "Pitch Slide PPTX",
         link: "files/nurtue-pitch-slide.pptx",
-      },
-    ],
-  },
-  {
-    name: "Final Report",
-    downloads: [
-      {
-        name: "Report PDF",
-        link: "files/nurtue-final-report.pdf",
       },
     ],
   },
