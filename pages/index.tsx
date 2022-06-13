@@ -1,25 +1,28 @@
 import "fullpage.js/dist/fullpage.min.css";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import type { FullPageJsOptions } from "fullpage.js";
 import Header from "components/Header";
 import Home from "components/Home";
 import Concept from "components/Concept";
 import Features from "components/Features";
-import Demo from "components/Demo";
+import Beta from "components/Beta";
 import DesignProcess from "components/DesignProcess";
 import Team from "components/Team";
 import Footer from "components/Footer";
 
 const Index: NextPage = () => {
   const [onFeaturePage, setOnFeaturePage] = useState(false);
+  const fullpageRef = useRef<any>(null);
 
   useEffect(() => {
     (async () => {
       const fullpage = await import("fullpage.js");
-      const options: FullPageJsOptions = {
+
+      const options = {
+        licenseKey: "gplv3-license",
         scrollBar: true,
+        scrollOverflow: false,
         anchors: [
           "home",
           "features",
@@ -30,16 +33,19 @@ const Index: NextPage = () => {
           "footer",
         ],
         menu: "#nav",
-        onLeave: function (origin, destination, direction) {
-          if ((origin as any).anchor === "features") {
+        onLeave: function (origin: any, destination: any) {
+          if (origin.anchor === "features") {
             setOnFeaturePage(false);
           }
-          if ((destination as any).anchor === "features") {
+          if (destination.anchor === "features") {
             setOnFeaturePage(true);
           }
         },
       };
-      new fullpage.default("#fullpage", options);
+
+      if (!fullpageRef.current) {
+        fullpageRef.current = new fullpage.default("#fullpage", options);
+      }
     })();
   }, []);
 
@@ -79,7 +85,7 @@ const Index: NextPage = () => {
       <main id="fullpage">
         <Home />
         <Features on={onFeaturePage} />
-        <Demo />
+        <Beta />
         <Concept />
         <DesignProcess />
         <Team />
