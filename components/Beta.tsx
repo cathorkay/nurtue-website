@@ -1,17 +1,17 @@
-const Demo: React.FC = () => {
+const Beta: React.FC = () => {
   return (
     <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-col sm:flex-row items-center justify-center px-6 lg:px-28 pt-14 sm:pt-16">
         <div className="mb-16 w-full sm:mb-0 sm:w-1/3 text-theme-black">
-          <h2 className="text-2xl sm:text-5xl font-bold mb-4 sm:mb-12">Demo</h2>
+          <h2 className="text-2xl sm:text-5xl font-bold mb-4 sm:mb-12">Beta</h2>
           <div className="text-base sm:text-2xl">
             <a
-              href="files/nurtue-hi-fi-prototype-readme.pdf"
+              href="https://forms.gle/dA3ZopM7FpUv2odY9"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block no-underline text-center rounded-2xl ring-2 ring-theme-black bg-theme-lightblue hover:bg-cyan-200 w-full sm:w-auto px-6 py-3 sm:px-16 sm:py-4"
             >
-              Try Prototype
+              Join Our Waitlist
             </a>
           </div>
         </div>
@@ -29,4 +29,4 @@ const Demo: React.FC = () => {
   );
 };
 
-export default Demo;
+export default Beta;

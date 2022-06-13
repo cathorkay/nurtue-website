@@ -23,7 +23,7 @@ const Index: NextPage = () => {
         anchors: [
           "home",
           "features",
-          "demo",
+          "beta",
           "concept",
           "design-process",
           "team",
