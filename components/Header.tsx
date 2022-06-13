@@ -12,8 +12,8 @@ const Links = () => (
     <a data-menuanchor="features" href="#features">
       Features
     </a>
-    <a data-menuanchor="demo" href="#demo">
-      Demo
+    <a data-menuanchor="beta" href="#beta">
+      Beta
     </a>
     <a data-menuanchor="concept" href="#concept">
       Concept
