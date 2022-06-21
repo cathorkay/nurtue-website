@@ -25,12 +25,12 @@ const teamMembers = [
 
 const Team: React.FC = () => {
   return (
-    <section className="section bg-theme-red">
+    <section className="section bg-theme-lightblue">
       <div className="h-full container mx-auto flex flex-col justify-center px-6 lg:px-28 pt-14 sm:pt-16 text-white">
-        <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-8 sm:mb-12 text-theme-black">
           Our Team
         </h2>
-        <div className="grid grid-cols-2 gap-4 lg:flex flex-row items-center justify-between lg:space-x-4">
+        <div className="grid grid-cols-2 gap-4 lg:flex flex-row items-center justify-between lg:space-x-4 text-theme-black">
           {teamMembers.map((m) => (
             <div key={m.name} className="flex flex-col items-center">
               <Image

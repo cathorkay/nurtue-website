@@ -7,7 +7,6 @@ import Home from "components/Home";
 import Concept from "components/Concept";
 import Features from "components/Features";
 import Beta from "components/Beta";
-import DesignProcess from "components/DesignProcess";
 import Team from "components/Team";
 import Footer from "components/Footer";
 
@@ -23,15 +22,7 @@ const Index: NextPage = () => {
         licenseKey: "gplv3-license",
         scrollBar: true,
         scrollOverflow: false,
-        anchors: [
-          "home",
-          "features",
-          "beta",
-          "concept",
-          "design-process",
-          "team",
-          "footer",
-        ],
+        anchors: ["home", "features", "beta", "concept", "team", "footer"],
         menu: "#nav",
         onLeave: function (origin: any, destination: any) {
           if (origin.anchor === "features") {
@@ -87,7 +78,6 @@ const Index: NextPage = () => {
         <Features on={onFeaturePage} />
         <Beta />
         <Concept />
-        <DesignProcess />
         <Team />
         <Footer />
       </main>
