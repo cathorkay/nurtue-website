@@ -9,7 +9,7 @@ const teamMembers = [
   {
     name: "Dyllen Nellis",
     photo: "dyllen.jpg",
-    role: "Chief Marketing Officer (CMO)", // comment left by cat
+    role: "Chief Marketing Officer (CMO)", // my comment 
   },
   {
     name: "Meng Guo",
