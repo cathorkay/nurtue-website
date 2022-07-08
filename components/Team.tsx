@@ -4,22 +4,27 @@ const teamMembers = [
   {
     name: "Catherine Horkay",
     photo: "cat.jpg",
-    role: "Chief Executive Officer (CEO)",
-  },
-  {
-    name: "Dyllen Nellis",
-    photo: "dyllen.jpg",
-    role: "Chief Marketing Officer (CMO)", // my comment 
+    role: "Co-Founder & CEO",
   },
   {
     name: "Meng Guo",
     photo: "meng.jpg",
-    role: "Chief Operating Officer (COO)",
+    role: "Co-Founder & COO",
+  },
+  {
+    name: "Dyllen Nellis",
+    photo: "dyllen.jpg",
+    role: "Co-Founder & CMO", 
   },
   {
     name: "Rui Ying",
     photo: "rui.jpg",
     role: "Software Engineer",
+  },
+  {
+    name: "Nicha Rattanabut",
+    photo: "rui.jpg",
+    role: "Educational Content Manager",
   },
 ];
 
