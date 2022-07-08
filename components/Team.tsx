@@ -21,11 +21,11 @@ const teamMembers = [
     photo: "rui.jpg",
     role: "Software Engineer",
   },
-  {
-    name: "Nicha Rattanabut",
-    photo: "rui.jpg",
-    role: "Educational Content Manager",
-  },
+  // {
+  //   name: "Nicha Rattanabut",
+  //   photo: "rui.jpg",
+  //   role: "Educational Content Manager",
+  // },
 ];
 
 const Team: React.FC = () => {
