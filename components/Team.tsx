@@ -17,9 +17,9 @@ const teamMembers = [
     role: "Co-Founder & CMO", 
   },
   {
-    name: "Rui Ying",
-    photo: "rui.jpg",
-    role: "Software Engineer",
+    name: "Sejal Parekh, M.D.",
+    photo: "sejal.jpg",
+    role: "Pediatrician & Advisor",
   },
   // {
   //   name: "Nicha Rattanabut",
