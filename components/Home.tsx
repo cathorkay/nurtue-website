@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         <div className="hidden sm:flex items-center absolute -z-10 inset-y-0 left-1/4 h-screen w-full">
           <Image
             className="h-full object-contain -mb-32"
-            src="WebsiteBannerNew.png.webp"
+            src="WebsiteBannerNew.png"
             alt="App screenshots"
             width={2052}
             height={1740}
