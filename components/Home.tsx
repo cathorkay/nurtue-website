@@ -29,7 +29,7 @@ const Home: React.FC = () => {
           <Image
             className="h-full object-contain -mb-32"
             src="WebsiteBannerNew.png"
-            alt="app screenshots"
+            alt="App screenshots"
             width={2052}
             height={1740}
           />
