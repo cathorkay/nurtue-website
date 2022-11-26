@@ -17,8 +17,8 @@ const teamMembers = [
     role: "Co-Founder & CMO", 
   },
   {
-    name: "Rui Ying",
-    photo: "rui.jpg",
+    name: "Michael Ding",
+    photo: "michael.jpg",
     role: "Software Engineer",
   },
 ];
