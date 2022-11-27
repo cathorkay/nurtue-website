@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Catherine Horkay",
     photo: "cat.jpg",
-    role: "Co-Founder, Product Manager",
+    role: "Co-Founder, Product",
   },
   {
     name: "Meng Guo",
