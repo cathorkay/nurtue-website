@@ -4,17 +4,17 @@ const teamMembers = [
   {
     name: "Catherine Horkay",
     photo: "cat.jpg",
-    role: "Co-Founder & CEO",
+    role: "Co-Founder, Product Manager",
   },
   {
     name: "Meng Guo",
     photo: "meng.jpg",
-    role: "Co-Founder & COO",
+    role: "Co-Founder, Operations",
   },
   {
     name: "Dyllen Nellis",
     photo: "dyllen.jpg",
-    role: "Co-Founder & CMO", 
+    role: "Co-Founder, Design", 
   },
   {
     name: "Michael Ding",
